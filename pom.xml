@@ -51,6 +51,10 @@
         <mall-common.version>1.0-SNAPSHOT</mall-common.version>
         <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
         <mall-security.version>1.0-SNAPSHOT</mall-security.version>
+		<sonar.projectKey>MarvinKnodel_mall-swarm</sonar.projectKey>
+		<sonar.organization>marvinknodel</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>b2ea7a78b014820f918d40410250cfb7611e7f53</sonar.login>
     </properties>
 
     <dependencies>

@@ -31,15 +31,7 @@ public class JacksonConfig {
 
         // 字段保留，将null值转为""
 //        objectMapper.getSerializerProvider().setNullValueSerializer(new JsonSerializer<Object>()
-//        {
-//            @Override
-//            public void serialize(Object o, JsonGenerator jsonGenerator,
-//                                  SerializerProvider serializerProvider)
-//                    throws IOException, JsonProcessingException
-//            {
-//                jsonGenerator.writeString("");
-//            }
-//        });
         return objectMapper;
     }
 }
+

@@ -36,10 +36,7 @@ public class JacksonConfig {
 //            public void serialize(Object o, JsonGenerator jsonGenerator,
 //                                  SerializerProvider serializerProvider)
 //                    throws IOException, JsonProcessingException
-//            {
-//                jsonGenerator.writeString("");
-//            }
-//        });
         return objectMapper;
     }
 }
+
